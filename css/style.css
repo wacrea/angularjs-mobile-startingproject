@@ -1,0 +1,46 @@
+.body, body{background: #FFF;font-family: 'Helvetica', 'Arial';color: #000;margin:0;padding: 0;width: 100%;-webkit-appearance:none;}
+img{border: none;background: none;padding: none;margin: none;}
+body, html { overflow-x: hidden; overflow-y: auto; }
+
+/* Button */
+button{-webkit-appearance: none;color: #FFF;text-align: center;background: #3498db;border: none;font-size: medium;padding: 10px 20px;width: 100%;}
+button.ng-click-active{background: #3fa6ea;}
+
+/* Input */
+input{-webkit-appearance: none;height: 40px;width: 100%;border: none;background: #FFF;padding: 5px 10px;border-radius: 0px;font-size: medium;}
+input:focus, textarea:focus{outline: 0;}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Mobile specificities */
+body { 
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -o-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -ms-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-user-drag: none; 
+    -moz-user-drag: none; 
+    user-drag: none; 
+}
+
+input { 
+    -webkit-touch-callout: normal; 
+    -webkit-user-select: normal; 
+    -khtml-user-select: normal; 
+    -moz-user-select: normal; 
+    -o-user-select: normal; 
+    -ms-user-select: normal; 
+    user-select: normal; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -ms-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-user-drag: normal; 
+    -moz-user-drag: normal; 
+    user-drag: normal;
+}
